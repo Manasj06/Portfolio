@@ -57,20 +57,6 @@ npm run preview
 
 All personal content lives in **`src/data/portfolio.ts`** — update your name, skills, projects, certifications there.
 
-## Deployment
-
-### Vercel (recommended)
-1. Push to GitHub
-2. Import repo on [vercel.com](https://vercel.com)
-3. Deploy — zero config needed
-
-### GitHub Pages
-```bash
-npm install --save-dev gh-pages
-# Add to package.json scripts: "deploy": "gh-pages -d dist"
-npm run build && npm run deploy
-```
-
 ## Design Notes
 
 - **Color palette**: `#050816` background · Electric Blue `#4f8ef7` · Purple `#8b5cf6` · Cyan `#06b6d4`
